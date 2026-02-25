@@ -1,3 +1,12 @@
 {
-  "expo": {}
+  "expo": {
+    "extra": {
+      "eas": {
+        "projectId": "3f8c185f-4fc3-4986-89df-273bd6b7bc15"
+      }
+    },
+    "android": {
+      "package": "com.shashank666.securemessenger"
+    }
+  }
 }
