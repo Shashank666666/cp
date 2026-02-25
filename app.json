@@ -1,12 +1,43 @@
 {
   "expo": {
-    "extra": {
-      "eas": {
-        "projectId": "3f8c185f-4fc3-4986-89df-273bd6b7bc15"
-      }
+    "name": "SecureMessenger",
+    "slug": "securemessenger",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
     },
     "android": {
-      "package": "com.shashank666.securemessenger"
+      "package": "com.shashank666.securemessenger",
+      "splash": {
+        "image": "./assets/splashscreen.xml",
+        "backgroundColor": "#ffffff"
+      },
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-font"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "cbbb33c0-79c8-42fd-9a35-5674a462a045"
+      }
     }
   }
 }
